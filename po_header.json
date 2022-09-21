@@ -1,0 +1,124 @@
+[
+{
+"po_order":"1000",
+"po_type":"SO",
+"comp_code":"100",
+"po_org":"10",
+"supplier":"800",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1001",
+"po_type":"SO",
+"comp_code":"100",
+"po_org":"10",
+"supplier":"850",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1002",
+"po_type":"SO",
+"comp_code":"110",
+"po_org":"20",
+"supplier":"700",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1003",
+"po_type":"SO",
+"comp_code":"110",
+"po_org":"30",
+"supplier":"670",
+"plant":"1010",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1004",
+"po_type":"SO",
+"comp_code":"110",
+"po_org":"20",
+"supplier":"400",
+"plant":"1110",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1005",
+"po_type":"SO",
+"comp_code":"100",
+"po_org":"10",
+"supplier":"800",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1006",
+"po_type":"SO",
+"comp_code":"100",
+"po_org":"10",
+"supplier":"800",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1007",
+"po_type":"SO",
+"comp_code":"100",
+"po_org":"10",
+"supplier":"800",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1008",
+"po_type":"SO",
+"comp_code":"300",
+"po_org":"20",
+"supplier":"700",
+"plant":"1120",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1009",
+"po_type":"SO",
+"comp_code":"130",
+"po_org":"30",
+"supplier":"800",
+"plant":"1100",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+},
+{
+"po_order":"1010",
+"po_type":"SO",
+"comp_code":"200",
+"po_org":"20",
+"supplier":"600",
+"plant":"1110",
+"create_by":"Rishi",
+"created_date_time":"202211090241",
+"changed_date_time":" "
+}
+
+]
