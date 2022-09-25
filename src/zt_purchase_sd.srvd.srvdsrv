@@ -1,0 +1,9 @@
+@EndUserText.label: 'Purchase Service Definition'
+define service ZT_Purchase_SD {
+  expose ZT_I_PurchaseOrders as PurchaseOrders;
+  expose ZT_I_PurchaseItems as PurchaseItem;
+  expose ZT_I_OrderTypeText as OrderTypeText;
+  expose zt_i_supplier as Supplier;
+  expose ZT_Purchase_Order_VH as PurchaseOrdreVH;
+  expose ZT_Supplier_VH as SupplierVH;
+}

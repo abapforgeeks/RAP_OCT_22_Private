@@ -3,12 +3,10 @@
 {
 "FROM":
 [
-"ZPOITEM_DB"
+"ZSUPPLIER"
 ],
 "ASSOCIATED":
-[
-"ZT_I_PURCHASEORDERS"
-],
+[],
 "BASE":
 [],
 "ANNO_REF":

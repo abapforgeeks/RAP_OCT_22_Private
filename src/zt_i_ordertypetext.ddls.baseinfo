@@ -3,11 +3,11 @@
 {
 "FROM":
 [
-"ZPOITEM_DB"
+"ZPO_TYPE_TXT"
 ],
 "ASSOCIATED":
 [
-"ZT_I_PURCHASEORDERS"
+"ZT_I_ORDERTYPE"
 ],
 "BASE":
 [],
