@@ -1,0 +1,34 @@
+[
+{
+"supplierid":"00800",
+"supplier_name" : "Apple Store NYC",
+"email_address":"sales@apple.com",
+"phone_number":"+1 102 200 200",
+"fax_number": "100 11 0022",
+"web_address":"https://www.apple.com"
+},
+{
+"supplierid":"00750",
+"supplier_name" : "Sleek Tech Store TX",
+"email_address":"info@stech.com",
+"phone_number":"+1 1102 300 200",
+"fax_number": "120 11 0022",
+"web_address":"https://www.SleekTech.com"
+},
+{
+"supplierid":"00850",
+"supplier_name" : "B2F Store Cali",
+"email_address":"contact@stech.com",
+"phone_number":"+1 1402 400 600",
+"fax_number": "140 11 1022",
+"web_address":"https://www.b2ftech.com"
+},
+{
+"supplierid":"00700",
+"supplier_name" : "Hex Store Cali",
+"email_address":"rh@hex.com",
+"phone_number":"+1 1202 600 600",
+"fax_number": "140 11 1042",
+"web_address":"https://www.hex.com"
+}
+]

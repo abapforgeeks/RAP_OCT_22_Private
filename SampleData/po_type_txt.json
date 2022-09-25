@@ -1,0 +1,12 @@
+[
+{
+"spras":"EN",
+"po_type":"SO",
+"type_desc":"Standard Order"
+},
+{
+"spras":"DE",
+"po_type":"SO",
+"type_desc":"Standardbestellung"
+}
+]
