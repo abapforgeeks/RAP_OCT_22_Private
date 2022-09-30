@@ -102,11 +102,15 @@ define view entity ZT_I_PurchaseOrders
 
               ]
       @UI: {
-      lineItem: [ { position: 10, label: 'Purchase Order' ,importance: #HIGH } ],
+      lineItem: [ { position: 10, label: 'Purchase Order' ,importance: #HIGH },
+      {type: #FOR_INTENT_BASED_NAVIGATION, semanticObjectAction: 'manage' } ],
       fieldGroup:[ { position: 10, label: 'Purchase Order',qualifier: 'GeneralIdentGroup' } ],
       selectionField: [{ position: 10 }]}
       @ObjectModel.text.element: ['PurchaseDescription']
       @Search.defaultSearchElement: true
+      @Consumption.semanticObject: 'PurchaseOrder'
+      
+      
       @Consumption.valueHelpDefinition: [{ entity:{ name: 'ZT_Purchase_Order_VH',element: 'POrder' } }]
   key po_order                                               as POrder,
       @Search.defaultSearchElement: true
@@ -115,9 +119,7 @@ define view entity ZT_I_PurchaseOrders
       po_desc                                                as PurchaseDescription,
       @Semantics.imageUrl: true
       imageurl                                               as ImageURL,
-      //      case imageurl
-      //      when '' then 'S D'
-      //      else imageurl end as OrderImageURL,
+
       @UI: {
       lineItem: [ { position: 20, label: 'Order Type',importance: #HIGH } ],
       fieldGroup:[ { position: 20, label: 'Order Type',qualifier: 'GeneralIdentGroup' } ],
@@ -160,7 +162,6 @@ define view entity ZT_I_PurchaseOrders
       @UI.fieldGroup: [{ position: 10, label: 'Company Code',qualifier: 'OrgDataFiledGroup' }]
       comp_code                                              as CompanyCode,
       @UI: {
-      //      lineItem: [ { position: 30, label: 'Purchase Group',importance: #LOW } ],
       fieldGroup:[ { position: 20, label: 'Purchase Group',qualifier: 'OrgDataFiledGroup' } ] }
       po_org                                                 as PurchaseOrg,
 

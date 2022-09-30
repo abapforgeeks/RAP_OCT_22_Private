@@ -7,6 +7,7 @@ title:{value: 'PurchaseItem' },
 typeName: 'Item',
 typeNamePlural: 'Items'
 }
+@Search.searchable: true
 define view entity ZT_I_PurchaseItems
   as select from zpoitem_db
   association [1] to ZT_I_PurchaseOrders as _Orders on $projection.PurchaseOrder = _Orders.POrder
@@ -24,6 +25,8 @@ define view entity ZT_I_PurchaseItems
       @UI.lineItem: [{ position: 20 }]
       @ObjectModel.text.element: ['ShortText']
       @UI.identification: [{ position: 20,label: 'Item Number' }]
+      @Search.defaultSearchElement: true
+      @Search.fuzzinessThreshold: 0.7
   key po_item       as PurchaseItem,
       short_text    as ShortText,
       @UI.lineItem: [{ position: 30 ,label: 'Materilal'}]
